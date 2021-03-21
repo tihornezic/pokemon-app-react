@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1350px;
+  /* display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+header {
+  border-bottom: 3px #2F6DB5 solid;
+}
+
+header .inner-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 10px;
+}
+
+header .header-links li a {
+  color: #2F6DB5;
+  letter-spacing: 1px;
+  border: 2px #C4C4C4 solid;
+  padding: 10px 35px;
+  border-radius: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.home {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img-div {
+  margin-bottom: 50px;
+}
+
+.btn {
+  background-color: #2F6DB5;
+  display: inline-block;
+  padding: 15px 15px;
+  color: #fff;
+  font-weight: 600;
+  border-radius: 10px;
+}
+
+.results {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 250px;
+  gap: 100px;
+}
+
+.results li:nth-child(2) {
+  color: #2F6DB5;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.results li:last-child {
+  display: none;
+}
+
+.results .pokemon-outside-outline {
+  border: 3px solid transparent;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.2);
+}
+
+.results .pokemon-card {
+  border: 2.75px solid #2F6DB5;
+  border-radius: 15px;
+  position: relative;
+}
+
+.results .pokemon-card p {
+  color: #2F6DB5;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  margin: 20px 0;
+}
+
+.results .pokemon-card .shadow {
+  position: absolute;
+  width: 60%;
+  height: 5px;
+  top: 400px;
+  left: 70px;
+  box-shadow: 0px 20px 15px rgba(0, 0, 0, 0.3);
+  padding: 0 60px;
+}
+/*# sourceMappingURL=style.css.map */
